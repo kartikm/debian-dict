@@ -1,0 +1,16 @@
+Copyright: Paul R. Tagliamonte <paultag@debian.org>
+License: CC-BY-SA 3.0
+Definition:
+ DD, or Debian Developer, is a status in the Debian project that allows the
+ member full rights granted by the constitution, which includes the right to
+ vote in GRs and DPL elections, or propose GRs.
+ .
+ DDs are also granted ssh rights into porterboxen, as well as project machines,
+ as well as a subscription to debian-private, the premiere list for vacation
+ notices.
+ .
+ There are two major types of DDs, Non-Uploading DDs and Uploading DDs. This
+ just denotes if the member is able to upload or sponsor uploads to the archive.
+ .
+ DDs can be spoted in the wild by a @debian.org email address, or a freenode
+ cloak of "debian/developer/name" (where name is their uid / account).

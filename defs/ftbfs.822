@@ -1,0 +1,12 @@
+Copyright: Paul R. Tagliamonte <paultag@debian.org>
+License: CC-BY-SA 3.0
+Definition:
+ FTBFS, or Failure to Build from Source, is a common abbreviation, commonly
+ found when someone tries to rebuild a package using a more up-to-date chroot
+ than was used to build the package last.
+ .
+ This is commonly a result of depending on deprecated / changed behavior, such
+ as a compiler upgrade or API change.
+ .
+ It's also often seen in bug reports automatically filed by watchful Developers
+ or the automated build infrastructure.
