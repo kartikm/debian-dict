@@ -1,0 +1,12 @@
+Copyright: Kartik Mistry <kartik@debian.org>
+License: CC-BY-SA 3.0
+Definition:
+ DPL, or Debian Project Leader, is a official reprentative of the Debian
+ Project. DPL defines the vision of the Debian Project and reprents Debian to
+ the external world.
+ .
+ DPL is chosen by election each year where all Debian Developers (DDs) are
+ eligible to vote. DPL may delegate responsibility to other DDs and may nominate
+ DDs to the certain positions like the the Project Secretary etc.
+ .
+ Also see: <http://www.debian.org/devel/leader>
