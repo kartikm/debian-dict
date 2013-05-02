@@ -1,0 +1,15 @@
+Copyright: Paul R. Tagliamonte <paultag@debian.org>
+License: CC-BY-SA 3.0
+Definition:
+ dak, or Debian Archive Kit, is the core software that runs the Debin archive.
+ It's what apt (and friends) speak to, and it's what manages the NEW queue.
+ .
+ dak runs on PostgreSQL, and is hosted on <ftp-master.debian.org>, currently
+ pointing at <franck.debian.org>, with a DD mirror on <release.debian.org>,
+ which is currently pointing at <ries.debian.org>.
+ .
+ You can access dak's database (projectb) on either of those servers, but
+ please don't poke around ftp-master without the ftp-masters knowing.
+ .
+ You can check out the source at <http://ftp-master.debian.org/git/dak.git>,
+ and get it running by following the README.

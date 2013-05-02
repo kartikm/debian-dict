@@ -1,0 +1,17 @@
+Copyright: Paul R. Tagliamonte <paultag@debian.org>
+License: CC-BY-SA 3.0
+Definition:
+ ftp-master may refer to the server (ftp-master.debian.org, the home of the
+ FTP team), or the person(s) in charge of the ftp team.
+ .
+ The server is where one usually uploads packages to the archive (but be aware
+ there are other queues in other places, such as ssh.upload.debian.org), and
+ the canonical copy of the archive lives.
+ .
+ The person(s) "ftp-master(s)" are the folks who manage the NEW queue (where
+ all new packages go), as well as BYHAND packages, where they check (very
+ briefly, this is only a sanity check) for common mistakes, license issues,
+ and no major violations of policy.
+ .
+ You can thank your friendly ftp team at <ftpmaster@debian.org>, or stop
+ by their IRC room at #debian-ftp on irc.oftc.net.

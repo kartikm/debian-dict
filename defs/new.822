@@ -1,0 +1,20 @@
+Copyright: Paul R. Tagliamonte <paultag@debian.org>
+License: CC-BY-SA 3.0
+Definition:
+ The NEW queue is the place where all new packages (to Debian) go to sit
+ before they enter the archive.
+ .
+ The NEW processing is needed to:
+ .
+   - Try to keep the archive Legal and DFSG free
+   - Try to keep the package namespace sane
+   - Try to keep the number of bugs down.
+ .
+ As seen in the REJECT FAQ (http://ftp-master.debian.org/REJECT-FAQ.html),
+ some of the things a package will get REJECTed for are:
+ .
+   - Non-DFSG free license
+   - Linking against OpenSSL when it's not legal to do so
+   - Bad copyright file
+   - Binary blobs / sourceless bits
+   - FTBFSIASW
